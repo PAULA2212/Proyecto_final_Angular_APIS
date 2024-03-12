@@ -1,0 +1,93 @@
+/* Selecciona el elemento anfitrión y establece su visualización como bloque en el área de la cuadrícula "footer" */
+:host {
+    display: block;
+    grid-area: footer;
+}
+
+/* Estilos generales para el pie de página */
+.nga-footer {
+    background-color: #212121;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para los enlaces dentro del pie de página */
+.nga-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Cambios de estilo al hacer hover o focus en los enlaces */
+.nga-footer a:hover,
+.nga-footer a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Estilos para un elemento con la clase "nga-hint" dentro del pie de página */
+.nga-footer .nga-hint {
+    background-color: #1976d2;
+}
+
+/* Cambios de opacidad al hacer hover en el elemento con la clase "nga-hint" */
+.nga-footer .nga-hint:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para botones sociales */
+.nga-btn-social {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease-in-out;
+    width: 47px;
+    height: 47px;
+}
+
+/* Estilos para el ícono dentro del botón social */
+.nga-btn-social i {
+    font-size: 1.25rem;
+    line-height: 47px;
+    display: inline-block;
+    width: inherit;
+    color: white;
+    text-align: center;
+}
+
+/* Cambios de estilo al hacer hover en el botón social */
+.nga-btn-social:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Cambios de color al hacer hover en el ícono dentro del botón social */
+.nga-btn-social i:hover {
+    color: black;
+}
+
+/* Estilos específicos para el botón social de GitHub */
+.nga-btn-github {
+    background-color: #333;
+}
+
+/* Estilos específicos para el botón social de GitLab */
+.nga-btn-gitlab {
+    background-color: #ff4500;
+}
+
+/* Estilos específicos para el botón social de LinkedIn */
+.nga-btn-linkedin {
+    background-color: #0082ca;
+}
+
+/* Estilos específicos para el botón social de Twitter */
+.nga-btn-twitter {
+    background-color: #55acee;
+}

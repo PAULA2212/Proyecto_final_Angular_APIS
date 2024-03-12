@@ -1,0 +1,19 @@
+<div>
+    <!-- Encabezado del juego de dados -->
+    <h2>Juego de Dados</h2>
+
+    <!-- Resultado del jugador 1 -->
+    <p>Resultado Jugador 1: {{ player1Score }}</p>
+
+    <!-- Resultado del jugador 2 -->
+    <p>Resultado Jugador 2: {{ player2Score }}</p>
+
+    <!-- Mensaje del ganador -->
+    <p>¡{{ winner }}!</p>
+
+    <!-- Botón para tirar los dados -->
+    <button (click)="rollDice()">Tirar Dados</button>
+
+    <!-- Botón para reiniciar el juego -->
+    <button (click)="resetGame()">Reiniciar Juego</button>
+</div>

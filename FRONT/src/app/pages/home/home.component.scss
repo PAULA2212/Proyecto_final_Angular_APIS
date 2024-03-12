@@ -1,0 +1,92 @@
+body {
+  /* Establece el estilo del cuerpo de la página */
+  font-family: 'Arial', sans-serif;
+  background-color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  /* Estilos para el contenedor principal */
+  background-color: #cef3dd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  /* Estilos para los encabezados h1 */
+  color: #ffffff;
+  text-align: center;
+}
+
+.column {
+  /* Estilos para contenedores de columnas */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  /* Estilos para contenedores de filas */
+  display: flex;
+}
+
+.gap-1 {
+  /* Espaciado entre elementos 1rem */
+  gap: 1rem;
+}
+
+.gap-2 {
+  /* Espaciado entre elementos 2rem */
+  gap: 2rem;
+}
+
+.space-between {
+  /* Justifica el contenido para ocupar todo el espacio disponible */
+  justify-content: space-between;
+}
+
+.add-product-btn {
+  /* Estilos para el botón 'Add Product' */
+  background-color: #27ae60;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.add-product-btn:hover {
+  /* Estilos al pasar el ratón sobre el botón */
+  background-color: #219653;
+}
+
+app-product {
+  /* Estilos para el componente 'app-product' */
+  background-color: #90ca99;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  flex: 1;
+}
+
+p-paginator {
+  /* Estilos para el componente 'p-paginator' */
+  margin-top: 20px;
+}
+
+app-edit-popup {
+  /* Estilos para el componente 'app-edit-popup' */
+  background-color: #c4f1d7;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

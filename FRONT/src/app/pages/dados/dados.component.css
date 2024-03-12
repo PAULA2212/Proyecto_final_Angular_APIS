@@ -1,0 +1,38 @@
+/* Estilos para el contenedor principal */
+div {
+  max-width: 400px;  /* Ancho máximo del contenedor */
+  margin: 0 auto;  /* Centra horizontalmente */
+  text-align: center;  /* Alinea el contenido al centro */
+  padding: 20px;  /* Espaciado interno */
+  border: 1px solid #ccc;  /* Borde sólido gris claro */
+  border-radius: 5px;  /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra ligera */
+}
+
+/* Estilos para los encabezados h2 dentro del contenedor */
+h2 {
+  color: #333;  /* Color del texto en gris oscuro */
+}
+
+/* Estilos para los párrafos dentro del contenedor */
+p {
+  margin-bottom: 10px;  /* Espaciado inferior */
+}
+
+/* Estilos para los botones dentro del contenedor */
+button {
+  padding: 10px 20px;  /* Relleno interno */
+  font-size: 16px;  /* Tamaño del texto */
+  background-color: #20a14b;  /* Color de fondo */
+  color: white;  /* Color del texto en blanco */
+  border: none;  /* Sin borde */
+  border-radius: 5px;  /* Bordes redondeados */
+  cursor: pointer;  /* Indica que es interactivo */
+  transition: background-color 0.3s ease;  /* Transición suave del color de fondo */
+  margin: 20px;  /* Margen exterior */
+}
+
+/* Estilos para el botón en estado activo (hover) */
+button:hover {
+  background-color: #2980b9;  /* Cambio de color de fondo al pasar el mouse */
+}

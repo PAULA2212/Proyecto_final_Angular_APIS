@@ -1,0 +1,20 @@
+<!-- Contenedor principal del formulario del juego de adivinar número -->
+<div>
+    <!-- Título del juego -->
+    <h2>Juego de Adivinar Número</h2>
+    
+    <!-- Mensaje dinámico que se muestra en función del estado del juego -->
+    <p>{{ message }}</p>
+    
+    <!-- Indicador del número de intento actual de 10 -->
+    <p>Intento {{ attempts + 1 }} de 10</p>
+    
+    <!-- Campo de entrada para que el usuario ingrese su suposición -->
+    <input type="number" [(ngModel)]="guess" />
+    
+    <!-- Botón para verificar la suposición del usuario -->
+    <button (click)="checkGuess()">Adivinar</button>
+    
+    <!-- Botón para reiniciar el juego -->
+    <button (click)="startGame()">Reiniciar Juego</button>
+</div>

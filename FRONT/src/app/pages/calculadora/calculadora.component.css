@@ -1,0 +1,41 @@
+/* Estilos para el contenedor principal de la calculadora */
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* Estilos para la pantalla de la calculadora */
+.display {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+}
+
+/* Estilos para el teclado de la calculadora */
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Estilos para los botones de la calculadora */
+button {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para los botones cuando se presionan */
+button:active {
+  background-color: #ccc;
+}

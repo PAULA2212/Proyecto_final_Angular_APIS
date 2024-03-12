@@ -1,0 +1,54 @@
+<!-- Contenedor principal de la barra lateral con fondo verde sutíl -->
+<div class="nga-container-sidebar bg-success-subtle">
+    <!-- Lista no ordenada que contiene elementos de la barra lateral -->
+    <ul class="list-unstyled p-2">
+        <!-- Primer elemento de la barra lateral -->
+        <li class="mb-1">
+            <!-- Botón de alternancia para la sección "API Projects" -->
+            <button class="btn nga-btn-toggle align-items-center rounded collapsed ms-5" data-bs-toggle="collapse"
+                data-bs-target="#home-collapse" aria-expanded="false">
+                API projects
+            </button>
+
+            <!-- Contenido colapsable de la sección "API Projects" -->
+            <div class="collapse" id="home-collapse">
+                <!-- Lista de enlaces para las aplicaciones relacionadas con la API -->
+                <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                        <!-- Enlace a la aplicación de clima -->
+                        <a routerLink="/clima" class="link-dark rounded">
+                            <i class="fa-cloud fa-solid text-success mt-1 me-2"></i>Clima App</a>
+                    </li>
+                    <li>
+                        <!-- Enlace a la aplicación de Pokemon -->
+                        <a routerLink="/poke" class="link-dark rounded">
+                            <i class="fa-solid fa-p text-success mt-1 me-2"></i>Poke App</a>
+                    </li>
+                    <li>
+                        <!-- Enlace a la aplicación de imágenes -->
+                        <a routerLink="/imagenes" class="link-dark rounded">
+                            <i class="fa-solid fa-camera-retro text-success mt-1 me-2"></i>Image App</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Botón de alternancia para la sección "Tienda" -->
+            <button class="btn nga-btn-toggle align-items-center rounded collapsed ms-5" data-bs-toggle="collapse"
+                data-bs-target="#account-collapse" aria-expanded="false">
+                Tienda
+            </button>
+
+            <!-- Contenido colapsable de la sección "Tienda" -->
+            <div class="collapse" id="account-collapse">
+                <!-- Lista de enlaces para la sección de la Tienda -->
+                <ul class="nga-btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                        <!-- Enlace a la página de inicio de la Tienda -->
+                        <a routerLink="/home" class="link-dark rounded">
+                            <i class="fa-solid fa-basket-shopping text-success mt-1 me-2"></i>Home</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>

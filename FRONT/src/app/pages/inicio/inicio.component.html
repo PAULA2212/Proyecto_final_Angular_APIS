@@ -1,0 +1,29 @@
+<!-- Contenedor principal de la página -->
+<div class="container">
+    <!-- Fila dentro del contenedor -->
+    <div class="row">
+        <!-- Columna con un ancho medio (md), centrada y con un desplazamiento hacia la derecha (offset-md-3) -->
+        <div class="col-md-6 offset-md-3 text-center mt-0 container-fluid">
+            <!-- Encabezado principal con un tamaño de visualización de 3 -->
+            <h1 class="display-3 mt-5">¡Bienvenido a mi Proyecto Final de Desarrollo Entorno Cliente!<i class="fa-solid fa-hands-clapping ms-4"></i></h1>
+            <!-- Párrafo con una clase de estilo 'small' y tamaño de visualización de 5 -->
+            <p class="mb-4 display-5 small">Paula Belen Fernandez Garcia</p>
+            <!-- Párrafos informativos -->
+            <p class="mb-4">Si navegas por el menú lateral podrás encontrar algunos componentes que utilizan servicios de APIs de terceros.</p>
+            <p class="mb-4">Si navegas por el navbar podrás encontrar componentes que han sido reciclados de otros proyectos.</p>
+
+            <!-- Imágenes de logotipos de Angular y Bootstrap con tamaños específicos -->
+            <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="100">
+            <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="Bootstrap Logo" width="100">
+            
+            <!-- Icono de Font Awesome con una clase específica -->
+            <i class="fab fa-font-awesome-flag fa-3x mt-3"></i>
+
+            <!-- Contador de visitas con un párrafo y un botón para aumentar el contador -->
+            <div class="visit-counter mt-4">
+                <p>¡Has visitado esta página {{ visitCount }} veces!</p>
+                <button (click)="incrementVisitCount()" class="btn btn-success">Aumenta</button>
+            </div>
+        </div>
+    </div>
+</div>

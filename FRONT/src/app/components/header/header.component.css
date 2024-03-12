@@ -1,0 +1,15 @@
+
+/* Estilos para el componente con el selector ':host' */
+:host {
+    display: block;       /* Establece que el elemento sea un bloque */
+    grid-area: header;    /* Asigna el área de la cuadrícula 'header' al elemento */
+    width: auto;          /* Establece el ancho automático del elemento */
+    position: sticky;     /* Establece la posición 'sticky' para que el encabezado permanezca en la parte superior */
+    top: 0;               /* Alinea el elemento en la parte superior del contenedor padre */
+    z-index: 1000;        /* Establece un índice z alto para asegurarse de que esté por encima de otros elementos */
+}
+
+/* Estilos para elementos con la clase 'navbar' */
+.navbar {
+    background-color: #127c35; /* Establece el color de fondo de la barra de navegación */
+}

@@ -1,0 +1,38 @@
+
+<div class="container">
+    <div class="row">
+        @for (item of imagenList; track item.id){
+            <div class="col-sm-3">
+                <app-imagen [imagen]="item"></app-imagen>
+            </div>
+        }
+        @empty {
+            <div class="alert alert-danger">
+                <p>
+                    No hay imagenes para mostar
+                </p>
+            </div>
+        }
+    </div>
+</div>
+<!-- Inicio del contenedor principal -->
+<div class="container">
+    <!-- Inicio de la fila para las imágenes -->
+    <div class="row">
+        <!-- Bucle for para recorrer la lista de imágenes -->
+        @for (item of imagenList; track item.id){
+            <!-- Cada imagen se muestra en una columna de tamaño 3 en dispositivos pequeños -->
+            <div class="col-sm-3">
+                <!-- Se utiliza el componente 'app-imagen' para mostrar cada imagen -->
+                <app-imagen [imagen]="item"></app-imagen>
+            </div>
+        }
+        @empty {
+            <div class="alert alert-danger">
+                <p>
+                    No hay imágenes para mostrar
+                </p>
+            </div>
+        }
+    </div>
+</div>
